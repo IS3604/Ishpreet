@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishpreet Singh — QA Engineer</title>
+    <meta name="description"
+        content="Portfolio of Ishpreet Singh, a detail-oriented QA professional with expertise in manual and automation testing, mobile application testing, and agile methodologies." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <!-- Preconnect for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preload the background video for faster hero rendering -->
+    <link rel="preload" as="video" href="bg-video.mp4" type="video/mp4" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Floating Navigation Capsule -->
+    <nav class="nav-capsule" id="nav-capsule">
+        <div class="nav-logo">IS</div>
+        <div class="nav-links">
+            <a href="#about" class="nav-link" id="nav-about">About</a>
+            <a href="#experience" class="nav-link" id="nav-experience">Experience</a>
+            <a href="#skills" class="nav-link" id="nav-skills">Skills</a>
+            <a href="#education" class="nav-link" id="nav-education">Education</a>
+            <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+        </div>
+        <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Menu">
+            <span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#education" class="mobile-link">Education</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <!-- Background video -->
+            <video class="hero-video" id="hero-bg-video" autoplay muted loop playsinline preload="auto" poster="">
+                <source src="bg-video.mp4" type="video/mp4">
+            </video>
+            <!-- Dark cinematic overlay for text legibility -->
+            <div class="hero-overlay"></div>
+            <!-- Frosted glass vignette — blurs all 4 edges (fluid.glass edge effect) -->
+            <div class="hero-vignette"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-label">◆ QA ENGINEER & AUTOMATION SPECIALIST</div>
+            <h1 class="hero-title">
+                <span class="hero-name-first">Ishpreet</span>
+                <span class="hero-name-last">Singh</span>
+            </h1>
+            <p class="hero-tagline">Precision. Quality. Innovation.</p>
+            <div class="hero-cta">
+                <a href="#experience" class="btn-primary" id="btn-view-work">View My Work ↳</a>
+                <a href="mailto:ishpreetsingh010@gmail.com" class="btn-ghost" id="btn-contact">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-light" id="about">
+        <div class="container">
+            <div class="section-label">◆ ABOUT ME</div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-heading">Detail-oriented QA Professional</h2>
+                    <p class="about-body">
+                        With 8+ months of experience in manual and automation testing, I specialize in mobile
+                        application testing, defect tracking, and agile methodologies. Committed to delivering
+                        high-quality software solutions through comprehensive test coverage and continuous improvement.
+                    </p>
+                    <div class="about-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Location</span>
+                            <span class="meta-value">India</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Email</span>
+                            <span class="meta-value">ishpreetsingh010@gmail.com</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Phone</span>
+                            <span class="meta-value">+91 9755588752</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Languages</span>
+                            <span class="meta-value">English (Fluent), Hindi (Native)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-interests">
+                    <div class="interest-card" id="interest-tech">
+                        <div class="interest-icon">⚙️</div>
+                        <div class="interest-text">Technology Innovation</div>
+                    </div>
+                    <div class="interest-card" id="interest-chess">
+                        <div class="interest-icon">♟️</div>
+                        <div class="interest-text">Chess</div>
+                    </div>
+                    <div class="interest-card" id="interest-esports">
+                        <div class="interest-icon">🎮</div>
+                        <div class="interest-text">Esports</div>
+                    </div>
+                    <div class="interest-card" id="interest-streaming">
+                        <div class="interest-icon">📡</div>
+                        <div class="interest-text">Streaming</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <div class="section-label light">◆ PROFESSIONAL EXPERIENCE</div>
+            <h2 class="section-heading light">Where Vision Meets Execution</h2>
+            <div class="timeline">
+
+                <div class="timeline-item" id="exp-rewise-qa">
+                    <div class="timeline-meta">
+                        <span class="timeline-period">May 2025 – Present</span>
+                        <span class="timeline-tag">Full Time</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-role">Jr. Quality Analyst</h3>
+                        <p class="timeline-company">Rewise Analytics and Technologies Pvt Ltd</p>
+                        <ul class="timeline-list">
+                            <li>Executed comprehensive manual testing for WingmanX mobile application (Android & iOS),
+                                ensuring 100% test coverage across all critical user flows and features</li>
+                            <li>Designed and maintained detailed test cases, test scenarios, and test data for
+                                functional, regression, and smoke testing phases</li>
+                            <li>Identified, documented, and tracked 50+ defects using JIRA, collaborating with
+                                development team to ensure timely resolution and root cause analysis</li>
+                            <li>Performed thorough verification and validation testing for each build release, ensuring
+                                quality standards met before deployment to Play Store and App Store</li>
+                            <li>Participated in daily stand-ups, sprint planning, and retrospectives following
+                                Agile/Scrum methodology</li>
+                            <li>Conducted cross-browser and cross-platform compatibility testing for consistent user
+                                experience</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" id="exp-rewise-intern">
+                    <div class="timeline-meta">
+                        <span class="timeline-period">May 2025 – Sept 2025</span>
+                        <span class="timeline-tag">Internship</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-role">Software Testing Intern</h3>
+                        <p class="timeline-company">Rewise Analytics and Technologies Pvt Ltd, Pune</p>
+                        <ul class="timeline-list">
+                            <li>Gained hands-on experience in mobile application testing for WingmanX, learning QA
+                                processes and best practices</li>
+                            <li>Assisted senior QA team in test case creation, execution, and defect reporting</li>
+                            <li>Developed foundational understanding of software testing lifecycle (STLC) and defect
+                                lifecycle</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" id="exp-schneider">
+                    <div class="timeline-meta">
+                        <span class="timeline-period">July 2024 – August 2024</span>
+                        <span class="timeline-tag">R&D Internship</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-role">R&D Software Development Intern</h3>
+                        <p class="timeline-company">Schneider Electric India Pvt Ltd, Mumbai</p>
+                        <ul class="timeline-list">
+                            <li>Contributed to R&D projects focused on industrial automation software development</li>
+                            <li>Gained exposure to enterprise-level software development lifecycle and quality assurance
+                                processes</li>
+                            <li>Collaborated with cross-functional teams to understand real-world project requirements
+                                and implementation</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-light" id="skills">
+        <div class="container">
+            <div class="section-label">◆ TECHNICAL SKILLS</div>
+            <h2 class="section-heading">Core Competencies</h2>
+
+            <div class="skills-grid">
+                <div class="skill-group" id="skill-testing">
+                    <div class="skill-group-title">Testing Methodologies</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Manual Testing</span>
+                        <span class="skill-tag">Automation Testing</span>
+                        <span class="skill-tag">Functional Testing</span>
+                        <span class="skill-tag">Regression Testing</span>
+                        <span class="skill-tag">Smoke Testing</span>
+                        <span class="skill-tag">Sanity Testing</span>
+                        <span class="skill-tag">Integration Testing</span>
+                        <span class="skill-tag">UAT</span>
+                    </div>
+                </div>
+
+                <div class="skill-group" id="skill-tools">
+                    <div class="skill-group-title">Testing Tools</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag highlight">JIRA</span>
+                        <span class="skill-tag highlight">Selenium</span>
+                        <span class="skill-tag highlight">Postman</span>
+                        <span class="skill-tag">TestRail</span>
+                        <span class="skill-tag">BrowserStack</span>
+                        <span class="skill-tag">Charles Proxy</span>
+                    </div>
+                </div>
+
+                <div class="skill-group" id="skill-programming">
+                    <div class="skill-group-title">Programming & Scripting</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag highlight">Python</span>
+                        <span class="skill-tag highlight">SQL</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript (Basic)</span>
+                    </div>
+                </div>
+
+                <div class="skill-group" id="skill-platforms">
+                    <div class="skill-group-title">Platforms & Methodologies</div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Android</span>
+                        <span class="skill-tag">iOS</span>
+                        <span class="skill-tag">Web Applications</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag highlight">Agile/Scrum</span>
+                        <span class="skill-tag">Waterfall</span>
+                        <span class="skill-tag">TDD</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core competencies marquee -->
+            <div class="competencies-marquee">
+                <div class="marquee-track">
+                    <span>Manual &amp; Automation Testing</span>
+                    <span class="sep">◆</span>
+                    <span>Test Case Design &amp; Execution</span>
+                    <span class="sep">◆</span>
+                    <span>Defect Tracking &amp; Reporting</span>
+                    <span class="sep">◆</span>
+                    <span>Mobile Testing (Android/iOS)</span>
+                    <span class="sep">◆</span>
+                    <span>API Testing</span>
+                    <span class="sep">◆</span>
+                    <span>Agile/Scrum Methodology</span>
+                    <span class="sep">◆</span>
+                    <span>Python Programming</span>
+                    <span class="sep">◆</span>
+                    <span>JIRA &amp; Test Management Tools</span>
+                    <span class="sep">◆</span>
+                    <span>SQL &amp; Database Testing</span>
+                    <span class="sep">◆</span>
+                    <span>CI/CD Integration</span>
+                    <span class="sep">◆</span>
+                    <span>Root Cause Analysis</span>
+                    <span class="sep">◆</span>
+                    <!-- Duplicate for infinite scroll -->
+                    <span>Manual &amp; Automation Testing</span>
+                    <span class="sep">◆</span>
+                    <span>Test Case Design &amp; Execution</span>
+                    <span class="sep">◆</span>
+                    <span>Defect Tracking &amp; Reporting</span>
+                    <span class="sep">◆</span>
+                    <span>Mobile Testing (Android/iOS)</span>
+                    <span class="sep">◆</span>
+                    <span>API Testing</span>
+                    <span class="sep">◆</span>
+                    <span>Agile/Scrum Methodology</span>
+                    <span class="sep">◆</span>
+                    <span>Python Programming</span>
+                    <span class="sep">◆</span>
+                    <span>JIRA &amp; Test Management Tools</span>
+                    <span class="sep">◆</span>
+                    <span>SQL &amp; Database Testing</span>
+                    <span class="sep">◆</span>
+                    <span>CI/CD Integration</span>
+                    <span class="sep">◆</span>
+                    <span>Root Cause Analysis</span>
+                    <span class="sep">◆</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-cream" id="education">
+        <div class="container">
+            <div class="section-label">◆ EDUCATION</div>
+            <h2 class="section-heading">Academic Background</h2>
+            <div class="education-grid">
+                <div class="edu-card" id="edu-btech">
+                    <div class="edu-year">2025</div>
+                    <div class="edu-content">
+                        <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                        <p class="edu-institution">Baderia Global Institute of Engineering and Management, Jabalpur</p>
+                        <p class="edu-date">Graduated: May 2025</p>
+                    </div>
+                    <div class="edu-icon">🎓</div>
+                </div>
+                <div class="edu-card" id="edu-cbse">
+                    <div class="edu-year">2021</div>
+                    <div class="edu-content">
+                        <h3 class="edu-degree">Senior Secondary Education (12th Grade)</h3>
+                        <p class="edu-institution">Central Board of Secondary Education (CBSE)</p>
+                        <p class="edu-date">Completed: May 2021</p>
+                    </div>
+                    <div class="edu-icon">📚</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="section-label light">◆ GET IN TOUCH</div>
+            <h2 class="section-heading light">Where Vision Meets<br>Collaboration</h2>
+            <p class="contact-sub">Available for QA Engineering roles, testing consultations, and collaboration
+                opportunities.</p>
+            <div class="contact-grid">
+                <a href="mailto:ishpreetsingh010@gmail.com" class="contact-card" id="contact-email">
+                    <div class="contact-icon">✉</div>
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">ishpreetsingh010@gmail.com</div>
+                    <div class="contact-arrow">↳</div>
+                </a>
+                <a href="tel:+919755588752" class="contact-card" id="contact-phone">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-label">Phone</div>
+                    <div class="contact-value">+91 9755588752</div>
+                    <div class="contact-arrow">↳</div>
+                </a>
+                <a href="https://www.linkedin.com/in/ishpreet-singh-b39883396?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank" rel="noopener" class="contact-card" id="contact-linkedin">
+                    <div class="contact-icon">in</div>
+                    <div class="contact-label">LinkedIn</div>
+                    <div class="contact-value">Connect with me</div>
+                    <div class="contact-arrow">↳</div>
+                </a>
+                <a href="https://wa.me/919755588752" target="_blank" rel="noopener" class="contact-card"
+                    id="contact-whatsapp">
+                    <div class="contact-icon whatsapp-icon">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </div>
+                    <div class="contact-label">WhatsApp</div>
+                    <div class="contact-value">Message me</div>
+                    <div class="contact-arrow">↳</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-name">Ishpreet Singh</div>
+                <div class="footer-tagline">QA Engineer — Building Better Software</div>
+                <div class="footer-copy">© 2025 Ishpreet Singh. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
