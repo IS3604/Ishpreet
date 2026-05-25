@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PNG Please — Ishpreet Singh</title>
+    <meta name="description" content="PNG Please — a browser-based utility to find and download PNG images, with no backend required." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="nav-capsule" id="nav-capsule">
+        <div class="nav-logo">IS</div>
+        <div class="nav-links">
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#experience" class="nav-link">Experience</a>
+            <a href="index.html#skills" class="nav-link">Skills</a>
+            <a href="index.html#projects" class="nav-link active">Projects</a>
+            <a href="index.html#education" class="nav-link">Education</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Menu">
+            <span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html#about" class="mobile-link">About</a>
+        <a href="index.html#experience" class="mobile-link">Experience</a>
+        <a href="index.html#skills" class="mobile-link">Skills</a>
+        <a href="index.html#projects" class="mobile-link">Projects</a>
+        <a href="index.html#education" class="mobile-link">Education</a>
+        <a href="index.html#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="proj-hero">
+        <div class="proj-hero-bg">
+            <video class="proj-hero-video" autoplay muted loop playsinline preload="auto">
+                <source src="bg-video.mp4" type="video/mp4">
+            </video>
+            <div class="proj-hero-overlay"></div>
+            <div class="proj-hero-vignette"></div>
+        </div>
+
+        <div class="container">
+            <a href="index.html#projects" class="proj-back">← Back to Projects</a>
+            <div class="proj-hero-label">
+                <span class="project-tag frontend">Frontend</span>
+                <span class="project-tag">Web Tool</span>
+                <span>◆ Zero Backend</span>
+            </div>
+            <h1 class="proj-hero-title">PNG Please</h1>
+            <p class="proj-hero-sub">A browser-based utility to find and download PNG images that are otherwise hard to locate — fast, free, and entirely client-side.</p>
+            <div class="proj-cta-row">
+                <a href="https://is3604.github.io/PNG-PLEASE/" target="_blank" rel="noopener" class="btn-primary">Try PNG Please ↗</a>
+                <a href="index.html#projects" class="btn-ghost">← All Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="proj-body">
+        <div class="container">
+            <div class="proj-grid">
+
+                <div class="proj-main">
+                    <div class="proj-section-label">◆ Overview</div>
+                    <h2 class="proj-section-title">The PNG You Need, Without the Hassle</h2>
+                    <p class="proj-body-text">
+                        Finding a specific PNG image — especially with a transparent background — is surprisingly painful. Search engines serve JPGs, watermarked stock photos, or images buried behind paywalls. PNG Please fixes that with a focused, no-friction tool built entirely in the browser.
+                    </p>
+                    <p class="proj-body-text">
+                        There's no backend to manage, no server costs, no account required. You open the page, search, and download. That's it. The entire image-fetch pipeline runs client-side using JavaScript, which made this project a great exercise in frontend architecture and API integration without a server layer.
+                    </p>
+
+                    <div class="proj-highlight-box">
+                        <p><strong>Solving a real problem:</strong> This project started because I kept running into the same frustration — needing a clean PNG and spending 10 minutes hunting for one. The best products fix real pain points. PNG Please fixes this one.</p>
+                    </div>
+
+                    <div class="proj-section-label">◆ Features</div>
+                    <h2 class="proj-section-title">Built for Speed and Simplicity</h2>
+                    <ul class="proj-feature-list">
+                        <li>Search for PNG images by keyword — results surface clean, downloadable PNGs specifically</li>
+                        <li>One-click download directly from the browser — no redirects, no sign-ups</li>
+                        <li>Entirely client-side — no backend, no server, no maintenance overhead</li>
+                        <li>AI-assisted development: prompt engineering was used to scaffold the image-fetch pipeline and UI logic rapidly</li>
+                        <li>Deployed on GitHub Pages — fast, reliable, always available</li>
+                        <li>Mobile-friendly layout for on-the-go use</li>
+                    </ul>
+
+                    <div class="proj-section-label">◆ Technical Notes</div>
+                    <h2 class="proj-section-title">Frontend Architecture Without a Backend</h2>
+                    <p class="proj-body-text">
+                        Building a functional image search tool without a backend is a constraint that forces creative thinking. This project uses client-side JavaScript to interface with image APIs directly, handling request formatting, response parsing, and download triggering entirely in the browser.
+                    </p>
+                    <p class="proj-body-text">
+                        Prompt engineering played a big role here — I used AI-assisted workflows to quickly iterate on the fetch pipeline and UI logic, focusing my time on the user experience and edge case handling rather than boilerplate code. The result is a tool that's simple on the surface and deliberately minimal under the hood.
+                    </p>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="proj-sidebar">
+                    <div class="proj-info-card">
+                        <h4>Project Info</h4>
+                        <div class="proj-info-row">
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Status</span>
+                                <span class="proj-info-value">✅ Live</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Hosting</span>
+                                <span class="proj-info-value">GitHub Pages</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Type</span>
+                                <span class="proj-info-value">Web Utility / Tool</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Backend</span>
+                                <span class="proj-info-value">None (Client-side)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proj-info-card">
+                        <h4>Tech Stack</h4>
+                        <div class="proj-stack-tags">
+                            <span class="proj-stack-tag">HTML</span>
+                            <span class="proj-stack-tag">CSS</span>
+                            <span class="proj-stack-tag">JavaScript</span>
+                            <span class="proj-stack-tag">Prompt Engineering</span>
+                            <span class="proj-stack-tag">GitHub Pages</span>
+                        </div>
+                    </div>
+
+                    <div class="proj-info-card">
+                        <h4>Try It</h4>
+                        <a href="https://is3604.github.io/PNG-PLEASE/" target="_blank" rel="noopener" class="btn-primary" style="font-size:12px;padding:12px 20px;display:inline-flex;margin-top:4px;">
+                            Open PNG Please ↗
+                        </a>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-name">Ishpreet Singh</div>
+                <div class="footer-tagline">QA Engineer — Building Better Software</div>
+                <div class="footer-copy">© 2025 Ishpreet Singh. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('nav-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+        document.addEventListener('click', (e) => {
+            if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) mobileMenu.classList.remove('open');
+        });
+        const navCapsule = document.getElementById('nav-capsule');
+        let lastScrollY = 0, ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    const scrollY = window.scrollY;
+                    if (scrollY > lastScrollY + 20) { navCapsule.style.transform = 'translateX(-50%) translateY(8px)'; navCapsule.style.opacity = '0.7'; }
+                    else if (scrollY < lastScrollY - 5 || scrollY < 100) { navCapsule.style.transform = 'translateX(-50%) translateY(0)'; navCapsule.style.opacity = '1'; }
+                    lastScrollY = scrollY; ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+    </script>
+</body>
+</html>

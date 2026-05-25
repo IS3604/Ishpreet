@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropload — Ishpreet Singh</title>
+    <meta name="description" content="Dropload — a full-stack web social media downloader deployed at dropload.space." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="nav-capsule" id="nav-capsule">
+        <div class="nav-logo">IS</div>
+        <div class="nav-links">
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#experience" class="nav-link">Experience</a>
+            <a href="index.html#skills" class="nav-link">Skills</a>
+            <a href="index.html#projects" class="nav-link active">Projects</a>
+            <a href="index.html#education" class="nav-link">Education</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Menu">
+            <span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html#about" class="mobile-link">About</a>
+        <a href="index.html#experience" class="mobile-link">Experience</a>
+        <a href="index.html#skills" class="mobile-link">Skills</a>
+        <a href="index.html#projects" class="mobile-link">Projects</a>
+        <a href="index.html#education" class="mobile-link">Education</a>
+        <a href="index.html#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="proj-hero">
+        <div class="proj-hero-bg">
+            <video class="proj-hero-video" autoplay muted loop playsinline preload="auto">
+                <source src="bg-video.mp4" type="video/mp4">
+            </video>
+            <div class="proj-hero-overlay"></div>
+            <div class="proj-hero-vignette"></div>
+        </div>
+
+        <div class="container">
+            <a href="index.html#projects" class="proj-back">← Back to Projects</a>
+            <div class="proj-hero-label">
+                <span class="project-tag deployed">Deployed</span>
+                <span class="project-tag">Full-Stack</span>
+                <span>◆ Web App</span>
+            </div>
+            <h1 class="proj-hero-title">Dropload</h1>
+            <p class="proj-hero-sub">A full-stack web application for downloading media from popular social media platforms — clean, fast, and deployed live.</p>
+            <div class="proj-cta-row">
+                <a href="https://dropload.space" target="_blank" rel="noopener" class="btn-primary">Visit Dropload ↗</a>
+                <a href="index.html#projects" class="btn-ghost">← All Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="proj-body">
+        <div class="container">
+            <div class="proj-grid">
+
+                <div class="proj-main">
+                    <div class="proj-section-label">◆ Overview</div>
+                    <h2 class="proj-section-title">Download Social Media Content — No Installs Needed</h2>
+                    <p class="proj-body-text">
+                        Dropload is a full-stack web application that solves a simple but frustrating problem: downloading media from social media platforms is unnecessarily hard. Dropload puts a clean browser interface in front of a robust backend and makes it effortless.
+                    </p>
+                    <p class="proj-body-text">
+                        Unlike the dozens of clunky, ad-ridden tools out there, Dropload is built with user experience at the forefront — paste a link, get your file. It runs entirely in the browser with no extensions or software to install, backed by a Python/Node.js server deployed on Railway.
+                    </p>
+
+                    <div class="proj-highlight-box">
+                        <p><strong>The QA angle:</strong> Building Dropload meant writing my own test scenarios before a single line of code. I applied STLC thinking — what are the failure modes? What happens with invalid URLs? Bad network? Unsupported platforms? My QA background shaped this project from day one.</p>
+                    </div>
+
+                    <div class="proj-section-label">◆ Features & Functionality</div>
+                    <h2 class="proj-section-title">What Dropload Does</h2>
+                    <ul class="proj-feature-list">
+                        <li>Accepts social media URLs and extracts downloadable media via a backend API layer</li>
+                        <li>Clean, minimal frontend UI — paste a link and download, no clutter</li>
+                        <li>Deployed and running live on Railway with a custom domain (dropload.space)</li>
+                        <li>Full-stack architecture: Python/Node.js backend handles media fetching, HTML/CSS/JS frontend handles the user experience</li>
+                        <li>Handles edge cases gracefully — invalid links, unsupported platforms, and network errors surface clear user feedback</li>
+                    </ul>
+
+                    <div class="proj-section-label">◆ Technical Approach</div>
+                    <h2 class="proj-section-title">How It's Built</h2>
+                    <p class="proj-body-text">
+                        The backend handles the heavy lifting — receiving URLs, extracting media metadata, and streaming the download back to the browser. The frontend is deliberately lightweight: fast to load, easy to use, and decoupled from the backend logic.
+                    </p>
+                    <p class="proj-body-text">
+                        Deploying on Railway gave me real experience with environment configuration, deployment pipelines, and keeping a server running reliably. Managing a live product means thinking about uptime, error handling, and user trust — all things that translate directly to QA thinking.
+                    </p>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="proj-sidebar">
+                    <div class="proj-info-card">
+                        <h4>Project Info</h4>
+                        <div class="proj-info-row">
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Status</span>
+                                <span class="proj-info-value">✅ Live</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Domain</span>
+                                <span class="proj-info-value">dropload.space</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Type</span>
+                                <span class="proj-info-value">Full-Stack Web App</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Hosting</span>
+                                <span class="proj-info-value">Railway</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proj-info-card">
+                        <h4>Tech Stack</h4>
+                        <div class="proj-stack-tags">
+                            <span class="proj-stack-tag">Python</span>
+                            <span class="proj-stack-tag">Node.js</span>
+                            <span class="proj-stack-tag">HTML</span>
+                            <span class="proj-stack-tag">CSS</span>
+                            <span class="proj-stack-tag">JavaScript</span>
+                            <span class="proj-stack-tag">Railway</span>
+                        </div>
+                    </div>
+
+                    <div class="proj-info-card">
+                        <h4>Visit</h4>
+                        <a href="https://dropload.space" target="_blank" rel="noopener" class="btn-primary" style="font-size:12px;padding:12px 20px;display:inline-flex;margin-top:4px;">
+                            dropload.space ↗
+                        </a>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-name">Ishpreet Singh</div>
+                <div class="footer-tagline">QA Engineer — Building Better Software</div>
+                <div class="footer-copy">© 2025 Ishpreet Singh. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('nav-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+        document.addEventListener('click', (e) => {
+            if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) mobileMenu.classList.remove('open');
+        });
+        const navCapsule = document.getElementById('nav-capsule');
+        let lastScrollY = 0, ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    const scrollY = window.scrollY;
+                    if (scrollY > lastScrollY + 20) { navCapsule.style.transform = 'translateX(-50%) translateY(8px)'; navCapsule.style.opacity = '0.7'; }
+                    else if (scrollY < lastScrollY - 5 || scrollY < 100) { navCapsule.style.transform = 'translateX(-50%) translateY(0)'; navCapsule.style.opacity = '1'; }
+                    lastScrollY = scrollY; ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+    </script>
+</body>
+</html>

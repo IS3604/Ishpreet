@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WingmanX Chatbot — Ishpreet Singh</title>
+    <meta name="description" content="WingmanX Chatbot — an AI-assisted chatbot interface built with mock API integration for the WingmanX platform." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="nav-capsule" id="nav-capsule">
+        <div class="nav-logo">IS</div>
+        <div class="nav-links">
+            <a href="index.html#about" class="nav-link">About</a>
+            <a href="index.html#experience" class="nav-link">Experience</a>
+            <a href="index.html#skills" class="nav-link">Skills</a>
+            <a href="index.html#projects" class="nav-link active">Projects</a>
+            <a href="index.html#education" class="nav-link">Education</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Menu">
+            <span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html#about" class="mobile-link">About</a>
+        <a href="index.html#experience" class="mobile-link">Experience</a>
+        <a href="index.html#skills" class="mobile-link">Skills</a>
+        <a href="index.html#projects" class="mobile-link">Projects</a>
+        <a href="index.html#education" class="mobile-link">Education</a>
+        <a href="index.html#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="proj-hero">
+        <div class="proj-hero-bg">
+            <video class="proj-hero-video" autoplay muted loop playsinline preload="auto">
+                <source src="bg-video.mp4" type="video/mp4">
+            </video>
+            <div class="proj-hero-overlay"></div>
+            <div class="proj-hero-vignette"></div>
+        </div>
+
+        <div class="container">
+            <a href="index.html#projects" class="proj-back">← Back to Projects</a>
+            <div class="proj-hero-label">
+                <span class="project-tag frontend">Frontend</span>
+                <span class="project-tag">AI-Assisted</span>
+                <span>◆ Chatbot Interface</span>
+            </div>
+            <h1 class="proj-hero-title">WingmanX Chatbot</h1>
+            <p class="proj-hero-sub">An interactive chatbot interface built for the WingmanX platform — real-time conversational UI powered by a mock API, designed with prompt engineering at its core.</p>
+            <div class="proj-cta-row">
+                <a href="https://is3604.github.io/WingmanX-Chatbot/" target="_blank" rel="noopener" class="btn-primary">Try the Chatbot ↗</a>
+                <a href="index.html#projects" class="btn-ghost">← All Projects</a>
+            </div>
+            <p style="margin-top:16px;font-size:12px;color:rgba(255,255,255,0.3);letter-spacing:0.04em;">⚠ Runs on mock API — no live backend required</p>
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="proj-body">
+        <div class="container">
+            <div class="proj-grid">
+
+                <div class="proj-main">
+                    <div class="proj-section-label">◆ Overview</div>
+                    <h2 class="proj-section-title">Where QA Meets Frontend Development</h2>
+                    <p class="proj-body-text">
+                        The WingmanX Chatbot was born at the intersection of two worlds I work in daily: QA testing and frontend development. As part of the WingmanX mobile app team at Rewise Analytics, I understood the product deeply — its flows, its edge cases, its user journeys. So I built a chatbot interface that simulates those conversational flows in the browser.
+                    </p>
+                    <p class="proj-body-text">
+                        The chatbot runs entirely on a mock API, meaning there's no backend dependency — it works anywhere, anytime. The conversation logic was designed with prompt engineering techniques, mapping realistic user inputs to structured response flows.
+                    </p>
+
+                    <div class="proj-highlight-box">
+                        <p><strong>Built from QA insight:</strong> Months of testing WingmanX gave me a deep map of every user flow and failure mode. I used that knowledge to design conversation paths that feel real — because they're based on real usage patterns I observed as a QA engineer.</p>
+                    </div>
+
+                    <div class="proj-section-label">◆ Features</div>
+                    <h2 class="proj-section-title">What Makes It Work</h2>
+                    <ul class="proj-feature-list">
+                        <li>Real-time conversational UI with smooth message rendering and response timing that feels natural</li>
+                        <li>Mock API integration — all conversation logic lives client-side, making it fast and dependency-free</li>
+                        <li>Prompt-engineered response flows designed from actual WingmanX user journey knowledge</li>
+                        <li>Covers multiple conversation branches — greetings, feature queries, error states, and fallback responses</li>
+                        <li>Responsive design that works across mobile and desktop — reflecting the mobile-first product it mirrors</li>
+                        <li>Deployed on GitHub Pages for zero-friction access</li>
+                    </ul>
+
+                    <div class="proj-section-label">◆ The Connection to QA</div>
+                    <h2 class="proj-section-title">Why a QA Engineer Built This</h2>
+                    <p class="proj-body-text">
+                        As a QA engineer on WingmanX, I wrote test cases for every flow, every edge case, every failure scenario. That work gave me an unusually detailed mental model of how users interact with the product. Building this chatbot was a way to express that model in code.
+                    </p>
+                    <p class="proj-body-text">
+                        It also expanded my skill set — from testing interfaces to building them. Understanding both sides makes me a better QA engineer: I know what it costs to build a feature, which makes me more thoughtful about what I flag as a defect versus what's acceptable.
+                    </p>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="proj-sidebar">
+                    <div class="proj-info-card">
+                        <h4>Project Info</h4>
+                        <div class="proj-info-row">
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Status</span>
+                                <span class="proj-info-value">✅ Live (Mock API)</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Hosting</span>
+                                <span class="proj-info-value">GitHub Pages</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Type</span>
+                                <span class="proj-info-value">Frontend / UI</span>
+                            </div>
+                            <div class="proj-info-item">
+                                <span class="proj-info-label">Backend</span>
+                                <span class="proj-info-value">Mock API (client-side)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proj-info-card">
+                        <h4>Tech Stack</h4>
+                        <div class="proj-stack-tags">
+                            <span class="proj-stack-tag">HTML</span>
+                            <span class="proj-stack-tag">CSS</span>
+                            <span class="proj-stack-tag">JavaScript</span>
+                            <span class="proj-stack-tag">Prompt Engineering</span>
+                            <span class="proj-stack-tag">Mock API</span>
+                        </div>
+                    </div>
+
+                    <div class="proj-info-card">
+                        <h4>Try It</h4>
+                        <a href="https://is3604.github.io/WingmanX-Chatbot/" target="_blank" rel="noopener" class="btn-primary" style="font-size:12px;padding:12px 20px;display:inline-flex;margin-top:4px;">
+                            Open Chatbot ↗
+                        </a>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-name">Ishpreet Singh</div>
+                <div class="footer-tagline">QA Engineer — Building Better Software</div>
+                <div class="footer-copy">© 2025 Ishpreet Singh. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('nav-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+        document.addEventListener('click', (e) => {
+            if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) mobileMenu.classList.remove('open');
+        });
+        const navCapsule = document.getElementById('nav-capsule');
+        let lastScrollY = 0, ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    const scrollY = window.scrollY;
+                    if (scrollY > lastScrollY + 20) { navCapsule.style.transform = 'translateX(-50%) translateY(8px)'; navCapsule.style.opacity = '0.7'; }
+                    else if (scrollY < lastScrollY - 5 || scrollY < 100) { navCapsule.style.transform = 'translateX(-50%) translateY(0)'; navCapsule.style.opacity = '1'; }
+                    lastScrollY = scrollY; ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+    </script>
+</body>
+</html>
